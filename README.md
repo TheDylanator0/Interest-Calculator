@@ -5,7 +5,7 @@ This is a little tool I threw together in ~15 minutes that calculates compound i
 ## Syntax and how to use
 
 **Format/Syntax:** `node src/index.js -p {PRINCIPAL NUMBER} -r {INTEREST RATE, NUMBER AS A PERCENTAGE} -t {TIMES INTEREST IS COMPOUNDED EACH YEAR, NUMBER} --months or --years {DISPLAY AS EACH MONTH OF YEAR UP TO 10 YEARS}`
-\n
+
 **Example:** `node src/index.js -p 1000 -r 3.80 -t 12 --years`
 *This example will return the following:*
 ```
